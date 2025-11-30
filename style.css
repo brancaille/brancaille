@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap');
+
+* { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+}
+
+body {
+    background: #f5f0e1 url('https://www.transparenttextures.com/patterns/old-paper.png') repeat;
+    background-size: 400px;
+    color: #321200;
+    font-family: 'Crimson Text', Georgia, serif;
+    font-size: 18px;
+    line-height: 1.6;
+    padding: 40px 60px;
+    min-height: 100vh;
+}
+
+
+a { 
+    color: #6b4a0b; 
+    text-decoration: none; 
+    border-bottom: 1px dotted #8b6914; 
+    transition: all 0.3s ease; 
+}
+a:hover, a:focus { 
+    color: #a67c00; 
+    border-bottom: 1px solid #a67c00; 
+}
+nav a { 
+    color: #5c3608; 
+    font-weight: 600; 
+    letter-spacing: 2px; 
+    border-bottom: none; 
+}
+nav a:hover, a:focus { 
+    color: #c9a227; 
+}
+
+/* Boutons éventuels */
+button, .btn, a.btn {
+    background: #8b6914; 
+    color: #fff !important; 
+    padding: 10px 20px; 
+    border: 2px solid #6b4a0b;
+    font-family: 'Cinzel', serif; 
+    text-transform: uppercase; 
+    letter-spacing: 2px;
+}
+button:hover, .btn:hover { 
+    background: #a67c00; 
+    border-color: #8b6914; 
+}
+
+
+header { 
+    text-align: center; 
+    margin-bottom: 40px; 
+    border-bottom: 4px double #8b6914; 
+    padding-bottom: 20px; 
+}
+
+h1 {
+    font-family: 'Cinzel', serif;
+    font-size: 2.2em;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #4a2600;
+    margin-bottom: 10px;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}
+
+h2 {
+    font-family: 'Cinzel', serif;
+    font-size: 1.6em;
+    color: #4a2600;
+    margin-bottom: 18px;
+    text-align: center;
+    letter-spacing: 2px;
+    border-bottom: 1px solid #8b6914;
+    padding-bottom: 8px;
+}
+
+nav {
+    text-align: center;
+    margin: 30px 0;
+    padding: 15px;
+    background: rgba(139,105,20,0.1);
+    border-top: 2px solid #8b6914;
+    border-bottom: 2px solid #8b6914;
+    font-variant: small-caps;
+}
+
+.section {
+    background: rgba(255,255,240,0.85);
+    padding: 30px 40px;
+    margin: 40px auto;
+    max-width: 900px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+    border: 1px solid #c9b28b;
+    border-radius: 8px;
+}
+
+
+p {
+    text-align: justify;
+    hyphens: auto;
+    margin-bottom: 1.2em;
+    text-indent: 0;
+}
+
+
+header p {
+    text-align: center !important;
+    text-indent: 0 !important;
+    margin: 10px 0 0 0;
+    font-size: 1.2em;
+    color: #633000;
+    letter-spacing: 1px;
+}
+
+/* Footer avec Flexbox pour centrage garanti */
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 60px;
+    padding: 30px;
+    font-size: 0.9em;
+    color: #633000;
+    border-top: 3px double #8b6914;
+    font-variant: small-caps;
+    letter-spacing: 2px;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* ==================== RESPONSIVE ==================== */
+@media (max-width: 900px) {
+    h1 { font-size: 2.0em; }
+    h2 { font-size: 1.55em; }
+}
+
+@media (max-width: 640px) {
+    h1 { font-size: 1.8em; letter-spacing: 2px; }
+    h2 { font-size: 1.45em; }
+    body { padding: 20px 15px; font-size: 17px; }
+    .section { padding: 25px 20px; }
+}
+
+@media (max-width: 480px) {
+    h1 { font-size: 1.7em; }
+    h2 { font-size: 1.35em; }
+}
+#resources-section ul {
+    list-style: none;
+    padding-left: 0;
+    text-align: center;       
+}
+
+#resources-section li {
+    margin: 15px 0;
+}
+a.pdf-link {
+    width: 440px;        
+    text-align: center;  
+}
