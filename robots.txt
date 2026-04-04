@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://brancaille.github.io/brancaille/sitemap.xml
+Sitemap: https://brancaille.github.io/brancaille/sitemap-images.xml
