@@ -7,7 +7,7 @@
     
     <!-- Gian Rossi -->
     <image:image>
-      <image:loc>https://brancaille.github.io/brancaille/pictures/gian-rossi.jpg</image:loc>
+      <image:loc>https://brancaille.github.io/brancaille/pictures/gian-rossi.avif</image:loc>
       <image:title>Gian Rossi</image:title>
       <image:caption>Portrait de Gian Rossi, figure des luttes provençales et organisateur de combats</image:caption>
       <image:alt>Portrait de Gian Rossi: luttes provençales et brancaille</image:alt>
@@ -15,7 +15,7 @@
 
     <!-- Ernest Banon -->
     <image:image>
-      <image:loc>https://brancaille.github.io/brancaille/pictures/ernest-banon.jpg</image:loc>
+      <image:loc>https://brancaille.github.io/brancaille/pictures/ernest-banon.avif</image:loc>
       <image:title>Ernest Banon</image:title>
       <image:caption>Portrait d'Ernest Banon, lutteur provençal et organisateur de combats</image:caption>
       <image:alt>Portrait d'Ernest Banon: luttes provençales et brancaille</image:alt>
@@ -30,7 +30,7 @@
 
     <!-- Jean-Paul Jimenez -->
     <image:image>
-      <image:loc>https://brancaille.github.io/brancaille/pictures/jean-paul-jimenez.jpg</image:loc>
+      <image:loc>https://brancaille.github.io/brancaille/pictures/jean-paul-jimenez.avif</image:loc>
       <image:title>Jean-Paul Jimenez</image:title>
       <image:caption>Portrait de Jean-Paul Jimenez, lutteur provençal</image:caption>
       <image:alt>Portrait de Jean-Paul Jimenez: luttes provençales et brancaille</image:alt>
@@ -38,7 +38,7 @@
 
     <!-- Ghjuvanni Tramoni -->
     <image:image>
-      <image:loc>https://brancaille.github.io/brancaille/pictures/ghjuvanni-tramoni.jpg</image:loc>
+      <image:loc>https://brancaille.github.io/brancaille/pictures/ghjuvanni-tramoni.avif</image:loc>
       <image:title>Ghjuvanni Tramoni</image:title>
       <image:caption>Portrait de Ghjuvanni Tramoni combattant et organisateur de tournois internationaux</image:caption>
       <image:alt>Portrait de Ghjuvanni Tramoni: brancaille et luttes provençales</image:alt>
