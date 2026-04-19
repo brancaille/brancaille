@@ -5,15 +5,7 @@
   <url>
     <loc>https://brancaille.github.io/brancaille/</loc>
     
-    <!-- Gian Rossi -->
-    <image:image>
-      <image:loc>https://brancaille.github.io/brancaille/pictures/gian-rossi.avif</image:loc>
-      <image:title>Gian Rossi</image:title>
-      <image:caption>Portrait de Gian Rossi, figure des luttes provençales et organisateur de combats</image:caption>
-      <image:alt>Portrait de Gian Rossi: luttes provençales et brancaille</image:alt>
-    </image:image>
-
-    <!-- Ernest Banon -->
+        <!-- Ernest Banon -->
     <image:image>
       <image:loc>https://brancaille.github.io/brancaille/pictures/ernest-banon.avif</image:loc>
       <image:title>Ernest Banon</image:title>
