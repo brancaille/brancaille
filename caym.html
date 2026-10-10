@@ -1,0 +1,279 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Caym, from Real Combat to the Spiritual Path — biographical dossier by Alzira dos Santos, March 17, 2014.">
+<title>Caym — from Real Combat to the Spiritual Path | Archives</title>
+<style>
+  :root {
+    --paper: #f3f0e8;
+    --ink: #1e211f;
+    --muted: #686b64;
+    --line: #c9c5b9;
+    --accent: #8f382f;
+    --panel: #e8e4d9;
+    --mono: "Courier New", Courier, monospace;
+    --serif: Georgia, "Times New Roman", serif;
+    --sans: Arial, Helvetica, sans-serif;
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    margin: 0;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: var(--serif);
+    line-height: 1.75;
+    text-rendering: optimizeLegibility;
+  }
+  a { color: inherit; }
+  .topline {
+    height: 6px;
+    background: var(--accent);
+  }
+  .shell {
+    width: min(100% - 40px, 1080px);
+    margin-inline: auto;
+  }
+  header {
+    padding: 26px 0 22px;
+    border-bottom: 1px solid var(--line);
+  }
+  .masthead {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    font: 700 11px/1.4 var(--mono);
+    letter-spacing: .14em;
+    text-transform: uppercase;
+  }
+  .brand { display: flex; align-items: center; gap: 12px; }
+  .mark {
+    display: grid;
+    place-items: center;
+    width: 34px; height: 34px;
+    border: 1px solid var(--ink);
+    font: 700 14px var(--mono);
+    letter-spacing: -.08em;
+  }
+  .issue { color: var(--muted); text-align: right; }
+  .breadcrumb {
+    margin: 28px 0 10px;
+    font: 11px/1.5 var(--mono);
+    letter-spacing: .08em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+  .breadcrumb span { color: var(--accent); }
+  .hero {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 190px;
+    gap: 42px;
+    align-items: end;
+    padding: 18px 0 35px;
+  }
+  .kicker {
+    color: var(--accent);
+    font: 700 11px/1.4 var(--mono);
+    letter-spacing: .16em;
+    text-transform: uppercase;
+    margin: 0 0 14px;
+  }
+  h1 {
+    font-size: clamp(2.5rem, 6vw, 5rem);
+    font-weight: 400;
+    letter-spacing: -.055em;
+    line-height: .99;
+    max-width: 760px;
+    margin: 0;
+  }
+  .subtitle {
+    font-size: clamp(1.05rem, 2vw, 1.35rem);
+    color: var(--muted);
+    font-style: italic;
+    margin: 19px 0 0;
+  }
+  .file-stamp {
+    border-top: 2px solid var(--ink);
+    border-bottom: 1px solid var(--line);
+    padding: 13px 0 16px;
+    font: 11px/1.8 var(--mono);
+    text-transform: uppercase;
+    letter-spacing: .05em;
+  }
+  .file-stamp strong {
+    display: block;
+    color: var(--accent);
+    font-size: 10px;
+    letter-spacing: .15em;
+    margin-bottom: 7px;
+  }
+  .file-stamp span { display: block; color: var(--muted); }
+  .rule { border: 0; border-top: 1px solid var(--ink); margin: 0; }
+  .content-grid {
+    display: grid;
+    grid-template-columns: 190px minmax(0, 690px);
+    justify-content: space-between;
+    gap: 48px;
+    padding: 35px 0 62px;
+  }
+  aside {
+    font: 11px/1.8 var(--mono);
+    text-transform: uppercase;
+    letter-spacing: .04em;
+    color: var(--muted);
+  }
+  .aside-block { padding: 0 0 20px; margin-bottom: 20px; border-bottom: 1px solid var(--line); }
+  .aside-label { color: var(--accent); font-weight: 700; letter-spacing: .13em; margin-bottom: 8px; }
+  .aside-value { color: var(--ink); text-transform: none; letter-spacing: 0; font: 14px/1.6 var(--serif); }
+  .article { font-size: 17px; }
+  .article p { margin: 0 0 1.35em; }
+  .article p:first-child::first-letter {
+    float: left;
+    font-size: 4.1em;
+    line-height: .8;
+    padding: .08em .12em 0 0;
+    color: var(--accent);
+  }
+  .article .location {
+    font: 700 11px/1.5 var(--mono);
+    text-transform: uppercase;
+    letter-spacing: .12em;
+    color: var(--accent);
+  }
+  .article .location::first-letter { float: none; font-size: inherit; padding: 0; color: inherit; }
+  .endnote {
+    margin-top: 38px;
+    padding-top: 18px;
+    border-top: 1px solid var(--ink);
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: baseline;
+  }
+  .signature { font-style: italic; font-size: 15px; }
+  .date { font: 11px/1.5 var(--mono); text-transform: uppercase; letter-spacing: .08em; color: var(--muted); }
+  footer {
+    border-top: 1px solid var(--line);
+    background: var(--panel);
+    padding: 22px 0;
+    font: 10px/1.7 var(--mono);
+    letter-spacing: .08em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+  .footer-inner { display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
+  @media (max-width: 700px) {
+    .shell { width: min(100% - 28px, 1080px); }
+    .hero { grid-template-columns: 1fr; gap: 24px; }
+    .file-stamp { max-width: 260px; }
+    .content-grid { grid-template-columns: 1fr; gap: 24px; padding-top: 26px; }
+    aside { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+    .aside-block { margin: 0; }
+    .article { font-size: 16px; }
+    .endnote { align-items: flex-start; flex-direction: column; gap: 5px; }
+    .issue { max-width: 130px; }
+  }
+  @media print {
+    body { background: white; }
+    .shell { width: 100%; }
+    header { padding-top: 0; }
+    .topline { height: 3px; }
+    .content-grid { padding-bottom: 20px; }
+    footer { background: white; }
+  }
+</style>
+</head>
+<body>
+<div class="topline"></div>
+<header>
+  <div class="shell">
+    <div class="masthead">
+      <div class="brand"><div class="mark">A.</div><div>Archives<br>Independent dossiers</div></div>
+      <div class="issue">Biographical file<br>Historical series / 001</div>
+    </div>
+    <nav class="breadcrumb" aria-label="Breadcrumb">Archives <span>/</span> Biographies <span>/</span> Caym</nav>
+    <section class="hero">
+      <div>
+        <p class="kicker">Portrait · Martial arts · Transformation</p>
+        <h1>Caym, from Real Combat to the Spiritual Path</h1>
+        <p class="subtitle">From the world of combat to a search for meaning and balance.</p>
+      </div>
+      <div class="file-stamp">
+        <strong>Document record</strong>
+        <span>Subject: Régis Renault</span>
+        <span>Known as: Caym</span>
+        <span>Origin: Nice, France</span>
+        <span>Published: 17 March 2014</span>
+      </div>
+    </section>
+  </div>
+</header>
+<main class="shell">
+  <div class="content-grid">
+    <aside aria-label="Document details">
+      <div class="aside-block">
+        <div class="aside-label">File</div>
+        <div class="aside-value">CAYM / BIOGRAPHY</div>
+      </div>
+      <div class="aside-block">
+        <div class="aside-label">Location</div>
+        <div class="aside-value">Nice<br>Alpes-Maritimes, France</div>
+      </div>
+      <div class="aside-block">
+        <div class="aside-label">Themes</div>
+        <div class="aside-value">Brancaille<br>Pancrace<br>Writing<br>Spiritual inquiry</div>
+      </div>
+      <div class="aside-block">
+        <div class="aside-label">Source date</div>
+        <div class="aside-value">March 17, 2014</div>
+      </div>
+    </aside>
+    <article class="article">
+      <p><span class="location">Nice (Alpes-Maritimes)</span> — Born in 1962 on the French Riviera, Régis Renault—known in underground circles by the alias Caym—has charted a unique path at the crossroads of martial arts, the margins of society, and literature. Long associated with a harsh and sometimes violent world, he now presents a radically different persona: a man devoted to passing on his knowledge, writing, and inner exploration.</p>
+
+      <p>His adolescence was marked by a strong attraction to underground milieus and an early confrontation with violence. At the age of 15, he associated with <a href="https://archives-5dc.pages.dev/webpages/mancini.html">Bruno Mancini</a>, known as Nono le Sarde, a young figure of Marseille’s criminal underworld whose appearance and codes evoked gangsters of another era. This period coincided with his intensive practice of <a href="https://www.calameo.com/accounts/8147391">brancaille</a>, a combat discipline combining boxing and wrestling, in which Caym forged a reputation as a resilient fighter accustomed to direct confrontations, often against physically stronger opponents.</p>
+
+      <p>At 16, he joined a group of young Asian martial arts practitioners known for testing their techniques in real, non-codified situations. These repeated and sometimes brutal experiences helped shape a relationship to the body and to risk grounded in trial and confrontation. The following year, an encounter with an <a href="https://kaliyugananda.github.io/ascetic-warriors/vajragnyashrama.html">Indian master</a> specializing in <a href="https://brancaille.github.io/brancaille/pdf/vajra-mushti-yuddha.pdf">vajramushti-yuddha</a>, a traditional martial art, introduced a more structured and spiritual dimension to his path. This mentor, also a musician and spiritual guide, had a lasting influence on Caym, who subsequently founded the rock band Blakrystal. The experience was short-lived: he quickly realized that his path lay more in combat than in musical creation.</p>
+
+      <p>The nickname “<a href="https://archive.org/details/regis-renault-alias-caym-the-journey-of-a-fighter">Caym</a>” was given to him during this period by <a href="https://archives-5dc.pages.dev/webpages/doherty.html">Mike “Lugh” Doherty</a>, leader of the <a href="https://online.fliphtml5.com/owmke/ndzp/#p=1">Clann na Morrígan</a>, a group of itinerant Irish bikers reputed for their violence. This proximity contributed to a sulphurous reputation, although no evidence establishes any direct involvement in criminal activities.</p>
+
+      <p>A serious accident during a competition in 1988 marked a decisive turning point. Injured, Caym entered a phase of introspection that gradually distanced him from the logic of domination and confrontation that had shaped his youth. He then devoted himself to writing, teaching, meditation, and an openly embraced spiritual quest, seeking to transform accumulated violent energy into inner discipline. The Japanese swordsman Miyamoto Musashi became one of his principal sources of inspiration.</p>
+
+      <p>In 1990, he took part in the creation of modern <a href="https://archive.org/details/ouvrage_historique_pancrace_france">pancrace</a>, a contemporary adaptation of ancient pankration incorporating the principles of brancaille. He organized several free-fighting tournaments abroad, as such practices were prohibited in France at the time.</p>
+
+      <p>In 2003, Caym definitively put an end to his practice of martial arts. He turned away from physical confrontation to devote himself exclusively to inner and intellectual work.</p>
+
+      <p>Now over 50 years old, he presents a striking contrast with the man he once was: calm, measured, and far removed from any display of force. His journey illustrates a marked evolution, in which a youth shaped by violence and excess gradually gave way to a search for meaning and balance. An atypical trajectory, yet one that reveals a profound transformation.</p>
+
+      <div class="endnote">
+        <div class="signature">Alzira dos Santos</div>
+        <div class="date">March 17, 2014</div>
+      </div>
+    </article>
+  </div>
+</main>
+<footer>
+  <div class="shell footer-inner">
+    <span>Archives · Document collection</span>
+    <span>End of file — Régis Renault</span>
+  </div>
+</footer>
+<script type="text/javascript">
+var sc_project=13359110; 
+var sc_invisible=1; 
+var sc_security="4d553de9"; 
+</script>
+<script type="text/javascript"
+src="https://www.statcounter.com/counter/counter.js"
+async></script>
+<noscript><div class="statcounter"><a title="Web Analytics"
+href="https://statcounter.com/" target="_blank"><img
+class="statcounter"
+src="https://c.statcounter.com/13359110/0/4d553de9/1/"
+alt="Web Analytics"
+referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
+</body>
+</html>

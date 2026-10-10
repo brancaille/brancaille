@@ -4,8 +4,6 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
 
 <url>
   <loc>https://brancaille.github.io/brancaille/</loc>
@@ -34,6 +32,11 @@
 </url>
 <url>
   <loc>https://brancaille.github.io/brancaille/references.html</loc>
+  <lastmod>2026-02-23T09:28:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://brancaille.github.io/brancaille/caym.html</loc>
   <lastmod>2026-02-23T09:28:42+00:00</lastmod>
   <priority>0.80</priority>
 </url>
@@ -78,22 +81,7 @@
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://archives-5dc.pages.dev/pdf/Caym.pdf</loc>
-  <lastmod>2026-02-23T09:28:42+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
   <loc>https://brancaille.github.io/brancaille/pdf/histoire_du_pancrace_en_france.pdf</loc>
-  <lastmod>2026-02-23T09:28:42+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://archive.org/details/regis-renault-alias-caym-the-journey-of-a-fighter</loc>
-  <lastmod>2026-02-23T09:28:42+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://archives-5dc.pages.dev/</loc>
   <lastmod>2026-02-23T09:28:42+00:00</lastmod>
   <priority>0.64</priority>
 </url>
